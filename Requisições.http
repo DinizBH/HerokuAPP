@@ -1,0 +1,11 @@
+GET  /users/DinizBH/repos HTTP/1.1 
+Host: api.github.com
+
+GET  /users//repos HTTP/1.1 
+Host: api.github.com 
+
+GET  /users/DinizBH/follow HTTP/1.1 
+Host: api.github.com 
+
+GET  /users/DinizBH/followers HTTP/1.1 
+Host: api.github.com 

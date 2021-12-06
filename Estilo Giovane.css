@@ -1,0 +1,274 @@
+
+/*Cabeçalho*/
+.header{ background-color: black;}
+
+
+.header_area     { background-color: rgb(150, 38, 208); margin-bottom: 20px;}
+
+.pesquisa{
+    align-items: baseline;
+}
+
+/* Aqui estou controlando posicionamento dos links do cabeçalho*/
+.menu_area   { height: 30px; padding-top: 10px; }
+
+
+
+/* Aqui estou controlando o funndo dos links do cabeçalho*/
+.header_area nav a    { background-color: rgb(61 24 152 / 51%); color: rgb(255, 255, 255);}
+
+
+/* Hover faz com que o icone no menu, brilhe quando passo o mouse*/ 
+.header_area nav a:hover    { background-color: rgb(217, 132, 243); }
+
+
+.active {
+    
+        background-color: rgb(61, 24, 152) !important;
+        color: rgb(0, 255, 34);
+
+}
+
+
+
+/* Barra de pesquisa*/ 
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:rgb(255, 0, 179);
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #e73ca0;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+
+/*Começo Main e Conteudo*/
+
+.main{
+    margin-bottom: 20px;
+}
+
+.main_base{
+    display: block;
+    background-color: royalblue;
+}
+
+
+
+/*Começo Main e Conteudo*/
+
+.inicio{
+    top: 35px;
+    text-align: justify;
+    bottom: 200px;
+}
+
+.inicio img{
+    align-items: center;
+    max-width: 400px;
+    top: 50px;
+    
+}
+
+
+
+.inicio p{
+    flex-wrap: wrap;    
+    top: 50px;
+    
+}
+
+.inicio div i{
+    font-size: 30px;
+}
+
+.projetos h1{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.botao{
+    padding: 20px;
+    top: 20px;
+    bottom: 20px;
+  
+}
+/*Começo Main e Conteudo*/
+
+.projetos{
+    padding: 50px;
+}
+.projetos img{
+    max-width: 240px;
+}
+
+.projetos h2{
+    font-size: x-large;
+}
+
+.inicio a{
+    color: indigo;
+
+}
+
+.inicio a:hover{
+    color: rgb(113, 6, 189);
+
+}
+
+
+
+
+/*Começo Github*/
+
+.github {
+    padding: 30px;
+    background-color: rgb(218, 218, 218);
+    top: 5px;
+    bottom: 15px;
+
+}
+.github img{
+
+    max-width: 270px;
+    top: 50px;
+}
+
+.github h1{
+    top: 30px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 30px;
+    
+}
+
+.github h2{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .github p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.github h3{
+    padding: 1px;
+    font-size: 16px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.github i{
+   font-size: 25px;
+   max-width: 25px;
+    
+}
+
+/*Começo conteudo*/
+
+.conteudo {
+    background-color: rgb(255, 255, 255);
+    top: 5px;
+    bottom: 15px;
+
+}
+.conteudo img{
+
+    align-items: center;
+    max-width: 400px;
+    top: 50px;
+}
+
+.conteudo h1{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.conteudo h2{
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   }
+
+   .conteudo p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.conteudo h3{
+    padding: 1px;
+    font-size: 16px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé*/
+.footer{
+       margin-top: 20px;
+       color: white;
+   }
+/* Aqui estou controlando o espaçamento do rodapé*/
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.row img{
+    max-width: 400px;
+}
